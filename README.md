@@ -49,14 +49,12 @@ POST /api/v1/convertBase64ToPDF
 ```
 
 ##### Utilize o método GET para baixar
-
-Em *{nome-do-arquivo.pdf}* substitua pelo nome do arquivo gerado na requisição POST. 
-
-Ex: /api/v1/download/document-2023-06-14.pdf
-
 ```
 GET /api/v1/download/{nome-do-arquivo.pdf}
 ```
+Em *{nome-do-arquivo.pdf}* substitua pelo nome do arquivo gerado na requisição POST. 
+
+Ex: /api/v1/download/document-2023-06-14.pdf
 
 ### Corpo da Requisição
 
