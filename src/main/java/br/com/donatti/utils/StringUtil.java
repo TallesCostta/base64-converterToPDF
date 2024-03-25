@@ -33,16 +33,16 @@ public class StringUtil implements Serializable {
 	 * @author Donatti [tallescosttapaiva@gmail.com] 24/03/2024 - 00:46:30
 	 *
 	 * @param nomeArquivo
-	 * @param tipoArquivo
+	 * @param extensaoArquivo
 	 * @return
 	 */
-	public String renomearArquivoPDF(String nomeArquivo, String tipoArquivo) 
+	public String renomearArquivoPDF(String nomeArquivo, String extensaoArquivo) 
 	{
 		return new StringBuilder()
 		        .append(renomearArquivo(nomeArquivo))
 		        .append("_")
 		        .append(dataUtil.obterDataAtualFormatada())
-		        .append(tipoArquivo)
+		        .append(extensaoArquivo)
 		        .toString();
 	}
 	

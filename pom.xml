@@ -12,10 +12,9 @@
 	</parent>
 	
 	<groupId>br.com.donatti</groupId>
-	<artifactId>base64Converter</artifactId>
+	<artifactId>base64Tools</artifactId>
 	<version>1.0.0.0</version>
-	<name>base64Converter</name>
-	<description>Conversores de base64</description>
+	<name>base64Tools</name>
 	
 	<properties>
 		<java.version>1.8</java.version>

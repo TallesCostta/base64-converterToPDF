@@ -1,3 +1,4 @@
+
 package br.com.donatti.utils;
 
 /**
@@ -9,5 +10,9 @@ public class Constants {
 	public final static String FORMAT_DATE_PATTERN = "ddMMyyyyHHmmss";
 	
 	public final static String FILE_TYPE_PDF = ".pdf";
+	
+	public final static String FILE_TYPE_TXT = ".txt";
+	
+	public static final String ERROR_PATH = "/error";
 
 }

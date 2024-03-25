@@ -1,6 +1,8 @@
 package br.com.donatti.entities;
 
+import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 /**
@@ -10,7 +12,9 @@ import lombok.Setter;
  */
 @Getter
 @Setter
-public class Base64DTO {
+@NoArgsConstructor
+@AllArgsConstructor
+public class Base64DecodeDTO {
 
 	private String nomeArquivo;
 	
