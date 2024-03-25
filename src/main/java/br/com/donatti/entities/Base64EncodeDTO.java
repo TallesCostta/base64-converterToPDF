@@ -19,6 +19,6 @@ public class Base64EncodeDTO {
 
 	private String nomeArquivo;
 
-	private String textData;
+	private String encodeData;
 
 }
