@@ -1,6 +1,6 @@
-# API de Conversão de Arquivo Base64 para PDF
+# API de Conversão de Arquivo Base64 para diversos formatos
 
-Esta é uma API REST desenvolvida em Java com o framework Spring Boot. O objetivo desta API é converter um arquivo no formato Base64 em um arquivo PDF.
+Esta é uma API REST desenvolvida em Java com o framework Spring Boot. O objetivo desta API é converter um arquivo no formato Base64 em um formato desejado.
 
 ## Tecnologias Utilizadas
 
@@ -17,6 +17,7 @@ Certifique-se de ter o seguinte software instalado em sua máquina:
 - Maven
 - Spring Tools 4
 - Postman
+- Lombok (jar)
 
 ## Configuração do Projeto
 
@@ -43,19 +44,10 @@ Uma vez que a aplicação esteja em execução, você pode interagir com a API u
 
 ## Endpoint
 
-##### Utilize o método POST para converter
+##### Utilize o método POST decodificar e pré-visualizar o arquivo
 ```
-POST /api/v1/convertBase64ToPDF
+POST /api/v1/convertBase64/PDF
 ```
-
-##### Utilize o método GET para baixar
-```
-GET /api/v1/download/{nome-do-arquivo.pdf}
-```
-Em *{nome-do-arquivo.pdf}* substitua pelo nome do arquivo gerado na requisição POST. 
-
-Ex: /api/v1/download/document-2023-06-14.pdf
-
 
 ## Corpo da Requisição
 
@@ -63,13 +55,14 @@ A requisição deve conter um objeto JSON com o seguinte formato:
 
 ```json
 {
+  "nomeArquivo": "<string com nome do arquivo>"
   "base64Data": "<string no formato Base64>"
 }
 ```
 
 ### Resposta
 
-Se a conversão for bem-sucedida, você receberá uma resposta com o código de status HTTP 200 e o nome do arquivo em PDF.
+Se a conversão for bem-sucedida, você receberá uma resposta com o código de status HTTP 200, e dependendo da IDE de teste, uma janela de preview do arquivo será exibida.
 
 Em caso de erro, você receberá uma resposta com o código de status HTTP apropriado e uma mensagem de erro no corpo da resposta.
 
