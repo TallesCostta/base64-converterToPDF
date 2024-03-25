@@ -20,7 +20,7 @@ import br.com.donatti.exceptions.IllegalParameterConverterException;
 import lombok.extern.slf4j.Slf4j;
 
 /**
- * @author Tales Paiva [tales.paiva@cagece.com.br] 24/03/2024 - 16:44:10
+ * @author Donatti [tallescosttapaiva@gmail.com] 24/03/2024 - 16:44:10
  */
 @Slf4j
 @RestController
@@ -28,7 +28,7 @@ import lombok.extern.slf4j.Slf4j;
 public class Base64ToTextController implements Serializable {
 
 	/**
-	 * @author Tales Paiva [tales.paiva@cagece.com.br] 24/03/2024 - 16:44:37
+	 * @author Donatti [tallescosttapaiva@gmail.com] 24/03/2024 - 16:44:37
 	 */
 	private static final long serialVersionUID = 7782354174590268272L;
 

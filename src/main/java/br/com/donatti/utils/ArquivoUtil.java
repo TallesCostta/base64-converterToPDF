@@ -69,7 +69,7 @@ public class ArquivoUtil implements Serializable {
 	}
 	
 	/**
-	 * @author Tales Paiva [tales.paiva@cagece.com.br] 24/03/2024 - 00:44:30
+	 * @author Donatti [tallescosttapaiva@gmail.com] 24/03/2024 - 00:44:30
 	 *
 	 * @param nomeArquivoFormatado
 	 * @throws IOException
@@ -87,7 +87,7 @@ public class ArquivoUtil implements Serializable {
 	}
 	
 	/**
-	 * @author Tales Paiva [tales.paiva@cagece.com.br] 24/03/2024 - 23:20:53
+	 * @author Donatti [tallescosttapaiva@gmail.com] 24/03/2024 - 23:20:53
 	 *
 	 * @param jsonBodyRequest
 	 * @return

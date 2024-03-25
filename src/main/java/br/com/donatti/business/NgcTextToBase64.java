@@ -1,5 +1,5 @@
 /**
- * @author Tales Paiva [tales.paiva@cagece.com.br] 24/03/2024 - 23:49:44
+ * @author Donatti [tallescosttapaiva@gmail.com] 24/03/2024 - 23:49:44
  */
 package br.com.donatti.business;
 
@@ -15,13 +15,13 @@ import br.com.donatti.entities.RetornoPadraoSucessoVO;
 import br.com.donatti.exceptions.IllegalParameterConverterException;
 
 /**
- * @author Tales Paiva [tales.paiva@cagece.com.br] 24/03/2024 - 23:49:44
+ * @author Donatti [tallescosttapaiva@gmail.com] 24/03/2024 - 23:49:44
  */
 @Service
 public class NgcTextToBase64 implements NgcRetornoPadrao {
 
 	/**
-	 * @author Tales Paiva [tales.paiva@cagece.com.br] 24/03/2024 - 23:44:46
+	 * @author Donatti [tallescosttapaiva@gmail.com] 24/03/2024 - 23:44:46
 	 *
 	 * @param jsonBodyRequest
 	 * @return
@@ -32,7 +32,7 @@ public class NgcTextToBase64 implements NgcRetornoPadrao {
 	}
 
 	/**
-	 * @author Tales Paiva [tales.paiva@cagece.com.br] 24/03/2024 - 23:52:59
+	 * @author Donatti [tallescosttapaiva@gmail.com] 24/03/2024 - 23:52:59
 	 *
 	 * @param jsonBodyRequest
 	 * @return
@@ -40,9 +40,9 @@ public class NgcTextToBase64 implements NgcRetornoPadrao {
 	 */
 	private String getBase64Txt(Base64EncodeDTO jsonBodyRequest) throws IllegalParameterConverterException
 	{
-		if (jsonBodyRequest.getTextData() != null && !jsonBodyRequest.getTextData().trim().isEmpty()) 
+		if (jsonBodyRequest.getEncodeData() != null && !jsonBodyRequest.getEncodeData().trim().isEmpty()) 
 		{			
-			return Base64.getEncoder().encodeToString(jsonBodyRequest.getTextData().getBytes());
+			return Base64.getEncoder().encodeToString(jsonBodyRequest.getEncodeData().getBytes());
 		} 
 		else
 		{
@@ -51,7 +51,7 @@ public class NgcTextToBase64 implements NgcRetornoPadrao {
 	}
 	
 	/**
-	 * @author Tales Paiva [tales.paiva@cagece.com.br] 24/03/2024 - 23:49:44
+	 * @author Donatti [tallescosttapaiva@gmail.com] 24/03/2024 - 23:49:44
 	 */
 	@Override
 	public RetornoPadraoSucessoVO preencherRetornoPadraoSucesso(Object resultado) 

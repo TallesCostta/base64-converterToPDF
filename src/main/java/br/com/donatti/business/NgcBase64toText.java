@@ -12,7 +12,7 @@ import br.com.donatti.exceptions.IllegalParameterConverterException;
 import br.com.donatti.utils.ArquivoUtil;
 
 /**
- * @author Tales Paiva [tales.paiva@cagece.com.br] 24/03/2024 - 16:51:25
+ * @author Donatti [tallescosttapaiva@gmail.com] 24/03/2024 - 16:51:25
  */
 @Service
 public class NgcBase64toText implements NgcRetornoPadrao {
@@ -34,7 +34,7 @@ public class NgcBase64toText implements NgcRetornoPadrao {
 	}
 
 	/**
-	 * @author Tales Paiva [tales.paiva@cagece.com.br] 24/03/2024 - 20:28:21
+	 * @author Donatti [tallescosttapaiva@gmail.com] 24/03/2024 - 20:28:21
 	 */
 	@Override
 	public RetornoPadraoSucessoVO preencherRetornoPadraoSucesso(Object resultado) 

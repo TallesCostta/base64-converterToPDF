@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import br.com.donatti.utils.Constants;
 
 /**
- * @author Tales Paiva [tales.paiva@cagece.com.br] 24/03/2024 - 22:40:08
+ * @author Donatti [tallescosttapaiva@gmail.com] 24/03/2024 - 22:40:08
  */
 @Controller
 public class CustomErrorController implements ErrorController {

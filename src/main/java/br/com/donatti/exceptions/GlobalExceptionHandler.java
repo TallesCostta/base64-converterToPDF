@@ -13,7 +13,7 @@ import br.com.donatti.entities.ErroPadraoVO;
 import br.com.donatti.entities.RetornoPadraoErroVO;
 
 /**
- * @author Tales Paiva [tales.paiva@cagece.com.br] 24/03/2024 - 21:58:35
+ * @author Donatti [tallescosttapaiva@gmail.com] 24/03/2024 - 21:58:35
  */
 @ControllerAdvice
 public class GlobalExceptionHandler {

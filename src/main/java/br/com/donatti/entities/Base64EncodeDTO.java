@@ -1,5 +1,5 @@
 /**
- * @author Tales Paiva [tales.paiva@cagece.com.br] 24/03/2024 - 19:35:36
+ * @author Donatti [tallescosttapaiva@gmail.com] 24/03/2024 - 19:35:36
  */
 package br.com.donatti.entities;
 
@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 /**
- * @author Tales Paiva [tales.paiva@cagece.com.br] 24/03/2024 - 19:35:36
+ * @author Donatti [tallescosttapaiva@gmail.com] 24/03/2024 - 19:35:36
  */
 @Getter
 @Setter

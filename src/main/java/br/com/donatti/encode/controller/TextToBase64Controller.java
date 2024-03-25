@@ -1,5 +1,5 @@
 /**
- * @author Tales Paiva [tales.paiva@cagece.com.br] 24/03/2024 - 19:31:53
+ * @author Donatti [tallescosttapaiva@gmail.com] 24/03/2024 - 19:31:53
  */
 package br.com.donatti.encode.controller;
 
@@ -22,7 +22,7 @@ import br.com.donatti.exceptions.IllegalParameterConverterException;
 import lombok.extern.slf4j.Slf4j;
 
 /**
- * @author Tales Paiva [tales.paiva@cagece.com.br] 24/03/2024 - 19:31:53
+ * @author Donatti [tallescosttapaiva@gmail.com] 24/03/2024 - 19:31:53
  */
 @Slf4j
 @RestController
@@ -30,7 +30,7 @@ import lombok.extern.slf4j.Slf4j;
 public class TextToBase64Controller implements Serializable {
 	
 	/**
-	 * @author Tales Paiva [tales.paiva@cagece.com.br] 24/03/2024 - 23:50:52
+	 * @author Donatti [tallescosttapaiva@gmail.com] 24/03/2024 - 23:50:52
 	 */
 	private static final long serialVersionUID = 2835825983939905175L;
 	
